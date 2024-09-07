@@ -1,7 +1,6 @@
 #define EMSCRIPTEN 1
 #define _GNU_SOURCE 1
 #define _ILP32 1
-#define _REENTRANT 1
 #define __ATOMIC_ACQUIRE 2
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_CONSUME 1
@@ -42,8 +41,6 @@
 #define __DBL_MIN__ 2.2250738585072014e-308
 #define __DECIMAL_DIG__ __LDBL_DECIMAL_DIG__
 #define __DEPRECATED 1
-#define __EMSCRIPTEN_PTHREADS__ 1
-#define __EMSCRIPTEN_SHARED_MEMORY__ 1
 #define __EMSCRIPTEN__ 1
 #define __EXCEPTIONS 1
 #define __FINITE_MATH_ONLY__ 0
@@ -236,7 +233,6 @@
 #define __SIZE_TYPE__ long unsigned int
 #define __SIZE_WIDTH__ 32
 #define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 8UL
-#define __STDCPP_THREADS__ 1
 #define __STDC_HOSTED__ 1
 #define __STDC_UTF_16__ 1
 #define __STDC_UTF_32__ 1
@@ -393,7 +389,6 @@
 #define __cpp_static_call_operator 202207L
 #define __cpp_structured_bindings 201606L
 #define __cpp_template_auto 201606L
-#define __cpp_threadsafe_static_init 200806L
 #define __cpp_unicode_characters 200704L
 #define __cpp_unicode_literals 200710L
 #define __cpp_user_defined_literals 200809L
@@ -408,8 +403,6 @@
 #define __wasm32 1
 #define __wasm32__ 1
 #define __wasm__ 1
-#define __wasm_atomics__ 1
-#define __wasm_bulk_memory__ 1
 #define __wasm_mutable_globals__ 1
 #define __wasm_sign_ext__ 1
 #define unix 1
